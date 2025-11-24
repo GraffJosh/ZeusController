@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "seeed esp32")(type "KiCad")(uri "C:/Users/Micro/Downloads/OPL_Kicad_Library/Seeed Studio XIAO Series Library/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+  (lib (name "DCDC")(type "KiCad")(uri "${KIPRJMOD}/ul_K7805-500R3/KiCADv6/2025-11-21_16-31-59.kicad_sym")(options "")(descr ""))
+  (lib (name "PESD1CAN")(type "KiCad")(uri "${KIPRJMOD}/PESD1CAN/2025-11-22_16-42-20.kicad_sym")(options "")(descr ""))
+)
