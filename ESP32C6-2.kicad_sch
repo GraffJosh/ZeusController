@@ -1182,6 +1182,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:PTVS5V0Z1USK"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVS5V0Z1USK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USK.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5V, 1200W TVS unidirectional diode, DSN1608-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TVS diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*DSN1608?2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTVS5V0Z1USK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTVS5V0Z1USK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_CAN_LIN:SN65HVD230"
 			(pin_names
 				(offset 1.016)
@@ -3028,6 +3177,12 @@
 		(uuid "1bfacffe-1b65-415b-9e37-33589ec5ee9b")
 	)
 	(junction
+		(at 128.27 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24e67665-b59d-4f52-835b-3dad3bd6badf")
+	)
+	(junction
 		(at 166.37 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3058,6 +3213,12 @@
 		(uuid "6ed32282-9691-4102-9a8e-cca42eddf10e")
 	)
 	(junction
+		(at 135.89 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f92fc9f-f021-4f47-8f1d-464df5977e0f")
+	)
+	(junction
 		(at 254 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3082,12 +3243,6 @@
 		(uuid "9e13333e-203b-4269-ad1a-22a994ead730")
 	)
 	(junction
-		(at 134.62 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1877bb4-6310-487e-b353-21798802a658")
-	)
-	(junction
 		(at 181.61 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3104,6 +3259,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf30bd4c-00e8-4978-bead-e6ff0418c6a1")
+	)
+	(junction
+		(at 135.89 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3e5de41-d9e6-4c8f-a66e-0833ac743b70")
 	)
 	(junction
 		(at 250.19 92.71)
@@ -3159,6 +3320,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 111.76) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00dda95d-0aa2-491b-9018-5e6d28a790e7")
+	)
+	(wire
+		(pts
 			(xy 254 77.47) (xy 254 92.71)
 		)
 		(stroke
@@ -3209,23 +3380,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 171.45) (xy 124.46 171.45)
+			(xy 138.43 171.45) (xy 128.27 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d2a2539-22fb-469f-b52e-a80048c3bcc9")
-	)
-	(wire
-		(pts
-			(xy 48.26 71.12) (xy 48.26 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dc354aa-780e-4121-90dd-7eab497afb17")
 	)
 	(wire
 		(pts
@@ -3259,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 167.64) (xy 134.62 173.99)
+			(xy 135.89 160.02) (xy 135.89 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3289,6 +3450,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 115.57) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bbf4e4f-bb34-4d67-ac6a-ad01d37e58ca")
+	)
+	(wire
+		(pts
 			(xy 166.37 71.12) (xy 170.18 71.12)
 		)
 		(stroke
@@ -3299,16 +3470,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 81.28) (xy 156.21 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20af4770-65ba-4728-8add-a3fc6acb91ce")
-	)
-	(wire
-		(pts
 			(xy 135.89 62.23) (xy 138.43 62.23)
 		)
 		(stroke
@@ -3316,16 +3477,6 @@
 			(type default)
 		)
 		(uuid "212d73a1-a750-40d6-8680-638e28e7ee42")
-	)
-	(wire
-		(pts
-			(xy 156.21 83.82) (xy 139.7 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "214157b9-cef4-4e79-b847-b2b5092b1998")
 	)
 	(wire
 		(pts
@@ -3459,6 +3610,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 173.99) (xy 134.62 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666d0037-35b7-492a-9f4a-107b486a1bee")
+	)
+	(wire
+		(pts
 			(xy 63.5 147.32) (xy 63.5 144.78)
 		)
 		(stroke
@@ -3466,6 +3627,16 @@
 			(type default)
 		)
 		(uuid "68e582dd-37ed-46e5-9dbb-ce0bf7e24075")
+	)
+	(wire
+		(pts
+			(xy 62.23 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e87586-0555-4da1-9824-3177b68ce4a6")
 	)
 	(wire
 		(pts
@@ -3499,6 +3670,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 163.83) (xy 135.89 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75180716-e2b5-4775-acf6-4a7574c77d27")
+	)
+	(wire
+		(pts
 			(xy 58.42 38.1) (xy 58.42 78.74)
 		)
 		(stroke
@@ -3506,6 +3687,16 @@
 			(type default)
 		)
 		(uuid "7ba70ac0-ab40-4940-b2d7-11f5fe8938ef")
+	)
+	(wire
+		(pts
+			(xy 128.27 163.83) (xy 135.89 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d79cc37-fe45-41a5-b1ea-3568a3f251a2")
 	)
 	(wire
 		(pts
@@ -3519,13 +3710,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 81.28) (xy 134.62 111.76)
+			(xy 58.42 115.57) (xy 133.35 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "808aee31-0246-4eb0-8e88-fb7db66fe22c")
+		(uuid "80c76af7-2cae-4d73-b648-215aa644e54d")
 	)
 	(wire
 		(pts
@@ -3669,23 +3860,33 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 173.99) (xy 138.43 173.99)
+			(xy 135.89 173.99) (xy 138.43 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6620b5e-9ddf-4015-bc2a-0760d2278abb")
+		(uuid "a45774ae-9553-4bf8-af78-259b0326f41b")
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 62.23 111.76)
+			(xy 137.16 83.82) (xy 156.21 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a857838c-d078-421a-85f4-e60715c5a73e")
+		(uuid "a93dfaa9-16db-4428-8f22-5e00659cf076")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 156.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4df2d9-259a-4065-8162-29901d91414d")
 	)
 	(wire
 		(pts
@@ -3716,6 +3917,16 @@
 			(type default)
 		)
 		(uuid "ae348e3d-3d8c-4be9-8b59-b49f0b0a96fc")
+	)
+	(wire
+		(pts
+			(xy 128.27 171.45) (xy 124.46 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e9b290-c616-46c3-b2b2-afa3adcd863b")
 	)
 	(wire
 		(pts
@@ -3889,6 +4100,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 71.12) (xy 48.26 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd7b980-5355-487c-8c60-b97c7a376baf")
+	)
+	(wire
+		(pts
 			(xy 166.37 62.23) (xy 166.37 71.12)
 		)
 		(stroke
@@ -3986,26 +4207,6 @@
 			(type default)
 		)
 		(uuid "eb237fff-627a-4eb5-90ed-f032441792c5")
-	)
-	(wire
-		(pts
-			(xy 139.7 83.82) (xy 139.7 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee49fad3-663b-4574-ab70-6506d673a66a")
-	)
-	(wire
-		(pts
-			(xy 139.7 115.57) (xy 58.42 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f14ee1bf-2be7-433f-900d-ebd20e52ce62")
 	)
 	(wire
 		(pts
@@ -4143,7 +4344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0R C17168"
 			(at 154.94 100.3299 0)
 			(effects
 				(font
@@ -4478,7 +4679,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10K C25744"
 			(at 142.24 58.42 90)
 			(effects
 				(font
@@ -4547,7 +4748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10uf C15525"
 			(at 73.66 162.5599 0)
 			(effects
 				(font
@@ -4603,7 +4804,7 @@
 		(at 271.78 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4774,7 +4975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10uf C15525"
 			(at 68.58 162.5599 0)
 			(effects
 				(font
@@ -5019,11 +5220,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:PTVS5V0Z1USK")
+		(at 128.27 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "552d3fa0-1b67-4770-8738-96cd46130d03")
+		(property "Reference" "TVS1"
+			(at 130.81 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24v TVS C918843"
+			(at 130.81 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JPGIndustriesCustom:TVS SOD-123FL_L3.0-W1.8-LS3.7-RD C918843"
+			(at 123.825 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USK.pdf"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 1200W TVS unidirectional diode, DSN1608-2"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21e8228b-673b-4e45-abd8-5e8919095e2e")
+		)
+		(pin "1"
+			(uuid "05c95bb6-b86f-47ef-99f5-c288f9b84194")
+		)
+		(instances
+			(project "ESP32C6-2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TVS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 144.78 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5037,7 +5308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0R C17168"
 			(at 147.32 100.3299 0)
 			(effects
 				(font
@@ -5156,7 +5427,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 167.64 180)
+		(at 135.89 160.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5165,7 +5436,7 @@
 		(fields_autoplaced yes)
 		(uuid "623d9eda-0c60-48fa-afd8-67cd8aaf7da6")
 		(property "Reference" "#PWR06"
-			(at 134.62 161.29 0)
+			(at 135.89 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +5445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 162.56 0)
+			(at 135.89 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 167.64 0)
+			(at 135.89 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 167.64 0)
+			(at 135.89 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 167.64 0)
+			(at 135.89 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5629,7 @@
 		(at 143.51 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5448,7 +5719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100K C25741"
 			(at 66.04 152.3999 0)
 			(effects
 				(font
@@ -5585,7 +5856,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0R C17168"
 			(at 142.24 68.58 90)
 			(effects
 				(font
@@ -5654,7 +5925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uf"
+		(property "Value" "1uf C52923"
 			(at 173.99 55.8799 0)
 			(effects
 				(font
@@ -5724,7 +5995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN65HVD230DR"
+		(property "Value" "SN65HVD230DR C12084"
 			(at 168.5133 76.2 0)
 			(effects
 				(font
@@ -5804,6 +6075,14 @@
 		(fields_autoplaced yes)
 		(uuid "d59e2374-55a8-4509-9464-f5d537b1547c")
 		(property "Reference" "CR1"
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PESD1CAN_215 C284094"
 			(at 238.76 80.01 0)
 			(effects
 				(font
@@ -5811,16 +6090,8 @@
 				)
 			)
 		)
-		(property "Value" "PESD1CAN_215"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
 		(property "Footprint" "SOT23_PESD1_NEX"
-			(at 250.19 92.71 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +6223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.7K"
+		(property "Value" "13.7K C25854"
 			(at 66.04 142.2399 0)
 			(effects
 				(font
@@ -6022,7 +6293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120R C25079"
 			(at 196.85 96.5199 0)
 			(effects
 				(font
@@ -6083,7 +6354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9adc007-bc66-4b6f-943b-a2ca62c50c31")
-		(property "Reference" "U3"
+		(property "Reference" "U3C5210749"
 			(at 106.68 165.1 0)
 			(effects
 				(font
@@ -6150,7 +6421,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U3")
+					(reference "U3C5210749")
 					(unit 1)
 				)
 			)
@@ -6175,7 +6446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "100nf C307331"
 			(at 173.99 68.5799 0)
 			(effects
 				(font
@@ -6245,7 +6516,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uf"
+		(property "Value" "1uf C52923"
 			(at 185.42 55.8799 0)
 			(effects
 				(font

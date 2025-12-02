@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Micro\OneDrive\Projects\ZEUS Battery\ZeusController\ESP32C6-2.kicad_sch</source>
+    <date>2025-12-01T23:18:07-0500</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP32C6-2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8e5c254-e315-4511-861e-5b5f1fa4dc1f</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uf C15525</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b18439d-6eec-4dbb-b929-27ad02b28f67</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uf C52923</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a729a9a3-631d-4d6c-8909-5d5f117a662a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uf C15525</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>386c44fa-a22c-4f5a-b902-ee11e0ea38b8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nf</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0f764e2-1d68-4e2c-b302-e21c59aa881f</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uf C52923</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff0b9c2d-0b3d-4b33-9936-3d6a12ab32c4</tstamps>
+    </comp>
+    <comp ref="CR1">
+      <value>PESD1CAN_215 C284094</value>
+      <footprint>SOT23_PESD1_NEX</footprint>
+      <datasheet>PESD1CAN_215</datasheet>
+      <fields>
+        <field name="Footprint">SOT23_PESD1_NEX</field>
+        <field name="Datasheet">PESD1CAN_215</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PESD1CAN" part="PESD1CAN_215" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="PESD1CAN,215"/>
+      <property name="ki_fp_filters" value="SOT23_PESD1_NEX SOT23_PESD1_NEX-M SOT23_PESD1_NEX-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d59e2374-55a8-4509-9464-f5d537b1547c</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>3.3uH C2849498</value>
+      <footprint>Inductor_SMD:L_APV_ANR5040</footprint>
+      <datasheet>~</datasheet>
+      <description>Inductor</description>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_APV_ANR5040</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>988e8c31-9755-4051-b49e-25a4d7413e5b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0R C17168</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>031141ea-0b0c-49ff-abdc-01fcc3b35ccd</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>120R C25079</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e90d88cf-f8a9-4a6e-9194-297a245a2be0</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0R C17168</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4ca2916-7a69-4d7f-9e15-750d27eb30e7</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K C25744</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36abc724-34d7-4b8b-aa43-a80318a611c0</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100K C25741</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9581aa5b-daed-4531-b359-5576be953c17</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>13.7K C25854</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3b4cb94-e22b-4501-bc48-30d0fd3fbb0f</tstamps>
+    </comp>
+    <comp ref="TVS1">
+      <value>24v TVS C918843</value>
+      <footprint>JPGIndustriesCustom:TVS SOD-123FL_L3.0-W1.8-LS3.7-RD C918843</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USK.pdf</datasheet>
+      <description>5V, 1200W TVS unidirectional diode, DSN1608-2</description>
+      <fields>
+        <field name="Footprint">JPGIndustriesCustom:TVS SOD-123FL_L3.0-W1.8-LS3.7-RD C918843</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USK.pdf</field>
+        <field name="Description">5V, 1200W TVS unidirectional diode, DSN1608-2</field>
+      </fields>
+      <libsource lib="Diode" part="PTVS5V0Z1USK" description="5V, 1200W TVS unidirectional diode, DSN1608-2"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="TVS diode"/>
+      <property name="ki_fp_filters" value="*DSN1608?2*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>552d3fa0-1b67-4770-8738-96cd46130d03</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SN65HVD230DR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf</datasheet>
+      <description>CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8</description>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf</field>
+        <field name="Description">CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8</field>
+      </fields>
+      <libsource lib="Interface_CAN_LIN" part="SN65HVD230" description="CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="can transeiver ti low-power"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be343bcc-e12b-4532-9823-f1d2d89859ab</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LMR51430YDDCR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmr51430.pdf</datasheet>
+      <description>4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmr51430.pdf</field>
+        <field name="Description">4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="LMR51430" description="4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ESP32C6-2.kicad_sch"/>
+      <property name="ki_keywords" value="switching buck converter power-supply voltage regulator"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9adc007-bc66-4b6f-943b-a2ca62c50c31</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="DE9_Pins">
+      <description>9-pin D-SUB connector, pins (male)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DSUB*Pins*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DE9_Pins</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">9-pin D-SUB connector, pins (male)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="PTVS5V0Z1USK">
+      <description>5V, 1200W TVS unidirectional diode, DSN1608-2</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USK.pdf</docs>
+      <footprints>
+        <fp>*DSN1608?2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PTVS5V0Z1USK</field>
+        <field name="Footprint">Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USK.pdf</field>
+        <field name="Description">5V, 1200W TVS unidirectional diode, DSN1608-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_CAN_LIN" part="SN65HVD230">
+      <description>CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN65HVD230</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf</field>
+        <field name="Description">CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="R" type="output"/>
+        <pin num="5" name="Vref" type="output"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="Rs" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPGIndustriesCustomSymbols" part="SUPERMINI_ESP32-C6-DIP">
+      <footprints>
+        <fp>Module:MOUDLE14P-XIAO-DIP-SMD</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XIAO-ESP32-C6</field>
+        <field name="Footprint">Module:MOUDLE14P-XIAO-DIP-SMD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="Manufacturer"/>
+        <field name="MPN"/>
+        <field name="SKU">XIAO-DIP</field>
+        <field name="Part Type"/>
+        <field name="Rating"/>
+        <field name="Status"/>
+        <field name="Temperature"/>
+        <field name="Priority"/>
+      </fields>
+      <pins>
+        <pin num="1" name="5v" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="3v3" type="power_out"/>
+        <pin num="4" name="GPIO20" type="bidirectional"/>
+        <pin num="5" name="GPIO19" type="bidirectional"/>
+        <pin num="6" name="GPIO18" type="bidirectional"/>
+        <pin num="7" name="GPIO15" type="bidirectional"/>
+        <pin num="8" name="GPIO14" type="bidirectional"/>
+        <pin num="9" name="GPIO9" type="bidirectional"/>
+        <pin num="10" name="GPIO8" type="bidirectional"/>
+        <pin num="11" name="TX" type="bidirectional"/>
+        <pin num="12" name="RX" type="bidirectional"/>
+        <pin num="13" name="GPIO0" type="bidirectional"/>
+        <pin num="14" name="GPIO1" type="bidirectional"/>
+        <pin num="15" name="GPIO2" type="bidirectional"/>
+        <pin num="16" name="GPIO3" type="bidirectional"/>
+        <pin num="17" name="GPIO4" type="bidirectional"/>
+        <pin num="18" name="GPIO5" type="bidirectional"/>
+        <pin num="19" name="GPIO6" type="bidirectional"/>
+        <pin num="20" name="GPIO7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="PESD1CAN" part="PESD1CAN_215">
+      <docs>PESD1CAN_215</docs>
+      <footprints>
+        <fp>SOT23_PESD1_NEX</fp>
+        <fp>SOT23_PESD1_NEX-M</fp>
+        <fp>SOT23_PESD1_NEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CR</field>
+        <field name="Value">PESD1CAN_215</field>
+        <field name="Footprint">SOT23_PESD1_NEX</field>
+        <field name="Datasheet">PESD1CAN_215</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LMR51430">
+      <description>4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lmr51430.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMR51430</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmr51430.pdf</field>
+        <field name="Description">4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SW" type="power_out"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="CB" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Interface_CAN_LIN">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Interface_CAN_LIN.kicad_sym</uri>
+    </library>
+    <library logical="JPGIndustriesCustomSymbols">
+      <uri>C:/Users/Micro/OneDrive/Documents/KiCad/9.0/symbols/JPGIndustriesCustomSymbols.kicad_sym</uri>
+    </library>
+    <library logical="PESD1CAN">
+      <uri>C:\Users\Micro\OneDrive\Projects\ZEUS Battery\ZeusController/PESD1CAN/2025-11-22_16-42-20.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CAN +" class="Default">
+      <node ref="CR1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/CAN -" class="Default">
+      <node ref="CR1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="GND" class="Default">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="CR1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TVS1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad4)" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(J2-Pin_1)" class="Default">
+      <node ref="TVS1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(J2-Pin_3)" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(U1-3v3)" class="Default">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(U1-GPIO3)" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(U1-GPIO19)" class="Default">
+      <node ref="U2" pin="4" pinfunction="R" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(U1-GPIO20)" class="Default">
+      <node ref="U2" pin="1" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(U2-Rs)" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="Rs" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(U3-CB)" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="CB" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(U3-FB)" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(U3-SW)" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="35" name="unconnected-(U2-Vref-Pad5)" class="Default">
+      <node ref="U2" pin="5" pinfunction="Vref" pintype="output"/>
+    </net>
+  </nets>
+</export>

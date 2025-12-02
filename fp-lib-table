@@ -3,4 +3,5 @@
   (lib (name "OPL_Kicad_Library")(type "KiCad")(uri "C:/Users/Micro/Downloads/OPL_Kicad_Library/Seeed Studio XIAO Series Library")(options "")(descr ""))
   (lib (name "DSUB")(type "KiCad")(uri "C:/Users/Micro/Downloads/ESP32C6-2")(options "")(descr ""))
   (lib (name "PESD")(type "KiCad")(uri "${KIPRJMOD}/PESD1CAN/footprints.pretty")(options "")(descr ""))
+  (lib (name "PTC")(type "KiCad")(uri "C:/Users/Micro/OneDrive/Projects/ZEUS Battery/ESP32C6-2/ul_1206L020YR")(options "")(descr ""))
 )
