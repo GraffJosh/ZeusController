@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.8,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 0.0,
+          "height": 1.219,
+          "width": 1.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -124,7 +124,7 @@
         "max_error": 0.005,
         "min_clearance": 0.16,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.1,
         "min_hole_to_hole": 0.25,
@@ -633,7 +633,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
